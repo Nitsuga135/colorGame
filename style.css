@@ -1,0 +1,76 @@
+body {
+  background-color:darkgreen 
+   
+}
+
+.square {
+  float: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  background-color: burlywood;
+  margin: 5px;
+  border: 4px solid black;
+  transition: all 0.5s linear;
+}
+.square:hover{
+  border-radius: 50%;
+}
+
+.container {
+  max-width: 600px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+.prueba{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+#message{
+    color: white;
+
+}
+
+#stripe{
+    background-color: grey;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.selected{
+  background-color: red;
+}
+#reset{
+  width: 45%;
+  height: 20px;
+  border-radius: 4px;
+}
+.containerDificultad{
+  margin: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.containerDificultad button{
+  margin: 5px;
+  height: 20px;
+  width: 80px;
+  border-radius: 4px;
+  
+}
