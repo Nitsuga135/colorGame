@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded', () => {
+	window.addEventListener('load', () => {
+
 //querys
 
 let cuadrados = document.querySelectorAll(".square")
@@ -155,4 +158,9 @@ hardButton.addEventListener("click", function(){
         mode = "hard"
         reset()
     }
+})
+
+
+
+})
 })
